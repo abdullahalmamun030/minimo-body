@@ -1,0 +1,115 @@
+
+/*common css*/
+body{
+	margin: 0;
+	font-family: playfair-display;
+	font-size: 16px; 
+	font-weight: 400;
+	color:  #626262;
+}
+/*common css end*/
+/*header start*/
+header{
+	padding: 25px 0
+}
+.container{
+	margin: 0 auto;
+	width: 90%;
+	/*border: 1px solid black;*/
+	overflow: hidden;
+}
+.logo{
+	margin-top: 10px;
+	width: 12%;
+	/*border: 1px solid red;*/
+	float: left;
+}
+.logo img{}
+.menu{
+	width: 75%;
+	/*border: 1px solid red;*/
+	float: right;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	display: inline-block;
+	margin: 0px 60px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #626262;
+	border-bottom: 1px solid transparent;
+}
+.menu ul li:last-child a{
+	padding-right: 0px;
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid #626262; 
+}
+/*header end*/
+/*banner start*/
+.banner{}
+.b_img{}
+.b_img img{
+	width: 100%;
+}
+/*banner*/
+/*weekend start*/
+.weekend{
+	padding: 80px 0;
+}
+.container2{
+	margin: 0 auto;
+	width: 80%;
+	/*border: 1px solid;*/
+	overflow: hidden;
+}
+.c_tag{
+	margin: 0;
+	font-family: 'ubuntu', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	text-transform: uppercase;
+	color: #626262;
+}
+.c_title{
+	margin: 15px 0 25px;
+	font-family: 'Playfair Display', serif;
+	font-size: 30px;
+	font-weight: 400;
+	color: #626262;
+}
+.c_text{
+	margin: 0;
+	line-height: 24px;
+}
+.mb-45{
+	margin-bottom: 45px;
+}
+/*weekend end*/
+/*blog start*/
+.blog{
+	padding: 0 0 80;
+}
+.s_blog{
+	margin-top: 70px;
+	width: 47%;
+	/*border: 1px solid red;*/
+	box-sizing: border-box;
+	float: left;
+}
+.s_blog:nth-child(even){
+	margin-left: 6%;
+}
+.s_img{
+	margin-bottom: 25px;
+}
+.s_img img{
+	width: 100%;
+}
+/*blog end*/
